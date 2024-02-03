@@ -1,6 +1,8 @@
 #!/bin/bash
 
 read -p "enter the name of file: " filename
+1
+
 
 if [ -e "$filename" ]; then
     cat "$filename"
